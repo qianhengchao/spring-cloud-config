@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: "hello-spring-cloud-web-admin-feign"
+server:
+  port: 8765
+
+
+
+
+#feign熔断器开启配置
+feign:
+  hystrix:
+    enabled: true
+
+#eureka发现配置
+eureka:
+  client:
+    serverUrl: "http://localhost:8761/eureka"
+
