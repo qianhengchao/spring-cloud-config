@@ -2,7 +2,7 @@ spring:
   application:
     name: "hello-spring-cloud-web-admin-feign"
 server:
-  port: 8765
+  port: 8775
 
 
 
